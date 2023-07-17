@@ -20,3 +20,5 @@ jobs:
         uses: actions/setup-node@v3
       - name: install dependencies
         run: npm ci
+      - name: Check test
+        run: npm test
