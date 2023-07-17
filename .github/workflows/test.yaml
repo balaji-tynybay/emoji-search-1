@@ -19,5 +19,4 @@ jobs:
       - name: install node
         uses: actions/setup-node@v3
       - name: install dependencies
-      - name: install dependencies
-        uses: npm install
+        uses: npm ci
